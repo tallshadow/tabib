@@ -1,0 +1,1526 @@
+
+a{
+    text-decoration: unset;
+}
+
+.section__padding{
+    padding: 4rem 6rem;
+  }
+
+.tabib__navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;    
+}
+
+.tabib__navbar-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    height: 33px;
+}
+
+.tabib__navbar-links_logo p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #4D77FF;
+}
+
+.tabib__navbar-links_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.tabib__navbar-links_container p a{
+    color: #121212;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+
+.tabib__navbar-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+.tabib__navbar-contact button{
+  
+padding: 12px 22px;
+color: #FFFFFF;
+background: #4D77FF;
+border-radius: 10px;
+border: none;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.03em;
+}
+.tabib__header-contact button{
+    position: absolute;
+    width: 162px;
+    height: 52px;
+    left: 100px;
+    top: 474px;
+    background: #4D77FF;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.tabib__header-wtabib{
+    position: absolute;
+    width: 601px;
+    height: 60px;
+    left: 101px;
+    top: 380px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #696969;
+}
+
+.tabib__header-title{
+    position: absolute;
+width: 634px;
+height: 140px;
+left: 100px;
+top: 184px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 70px;
+/* or 130% */
+
+letter-spacing: 0.02em;
+
+/* Black */
+
+color: #121212;
+}
+
+.tabib__header-title span{
+    color: #4D77FF;
+}
+.tabib__header img{
+    position: absolute;
+width: 885px;
+height: 590px;
+left: 52rem;
+top: 109px;
+}
+
+.tabib__header-drCardProfile{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+position: absolute;
+width: 144px;
+height: 178px;
+left: 50rem;
+top: 436px;
+
+/* White */
+
+background: #FFFFFF;
+box-shadow: 0px -24px 34px rgba(199, 201, 217, 0.15);
+border-radius: 10px;
+}
+
+.tabib__header-drCardProfile_profile{
+    width: 50px;
+height: 50px;
+}
+
+.tabib__header-drCardProfile_pic{
+    width: 50px;
+height: 50px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.tabib__header-drCardProfile_imgf{
+
+    position: absolute;
+    width: 92px;
+    height: 102px;
+    left: 26px;
+    top: 16px;
+
+background: url(../media/drCard.png);
+}
+
+.tabib__header-drCardProfile_picFrame{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 16px;
+    border-radius: 50px;
+    background: url(../media/drCard.png);
+}
+
+.tabib__header-drCardProfile_name{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+}
+
+.tabib__header-drCardProfile_name-id{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.03em;
+
+/* Black */
+
+color: #121212;
+
+}
+
+.tabib__header-drCardProfile_name-speciality{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Grey */
+
+color: #696969;
+
+}
+
+.tabib__header-drCardProfile_appointement{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+border: none;
+/* Primary */
+
+background: #4D77FF;
+border-radius: 10px;
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+
+.tabib__header-eclipse{
+    position: absolute;
+    width: 1500px;
+    height: 1500px;
+    left: 607px;
+    top: 308px;
+    
+    /* Primary */
+    
+    background: #4D77FF;
+border-radius: 48rem;
+z-index:-1;
+
+}
+.tabib__header{
+    position: absolute;
+    width: 1700px;
+    height: 699px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+/* Step Section */
+.tabib__stepSection{
+    position: absolute;
+    width: 1530px;
+    height: 350px;
+    left: 100px;
+    top: 762px;
+
+}
+
+.tabib__stepSection-title{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 530px;
+    /* height: 70px; */
+    left: 455px;
+  
+}
+
+.tabib__stepSection-title_sm{
+
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    letter-spacing: 0.03em;
+    
+    /* Primary */
+    
+    color: #4D77FF;
+}
+.tabib__stepSection-title_lg{
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.015em;
+
+/* Black */
+
+color: #121212;
+margin-top: 0;
+
+}
+
+.tabib__stepSection-card_rectangle{
+width: 287px;
+height: 3px;
+left: 1051px;
+top: 122px;
+
+background: #4D77FF;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.tabib__stepSection-card_frame{
+ 
+height: 226px;
+ 
+background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(18, 18, 18, 0.1);
+border-radius: 0px 0px 10px 10px;
+}
+
+.tabib__stepSection-card_frame-text{
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+margin-left: 2rem;
+
+letter-spacing: 0.03em;
+
+color: #696969;
+}
+
+.tabib__stepSection-card_frame img{
+  
+left: 13.94%;
+right: 72.13%;
+top: 22.12%;
+bottom: 60.18%;
+margin: 2rem 0rem 0rem 2rem;
+}
+
+.tabib__stepSection-card_frame-text2{
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+
+letter-spacing: 0.03em;
+
+margin-left: 2rem;
+color: #121212;
+}
+.tabib__stepSection-card_container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 8rem 0 2rem;
+
+}
+
+.tabib__stepSection-card{
+
+  width: 287px;
+  height: 229px;
+  left: 1051px;
+  top: 920px;
+
+}
+
+/* Find Doctor */
+.tabib__findDoctor{
+    position: absolute;
+width: 1700px;
+height: 670px;
+left: 0px;
+top: 1147px;
+overflow: hidden;
+}
+
+/* .avialDoctor{
+
+padding: 18px 30px;
+
+
+position: absolute;
+width: 202px;
+height: 256px;
+left: 764px;
+top: 116px;
+
+background: #FFFFFF;
+box-shadow: -4px -10px 50px rgba(18, 18, 18, 0.1);
+border-radius: 10px;
+} */
+
+.avialDoctor {
+    /* position: absolute; */
+    padding: 18px 30px;
+    position: absolute;
+    width: 158px;
+    height: 220px;
+    left: 973px;
+    top: 153px;
+    background: #FFFFFF;
+    box-shadow: -4px -10px 50px rgb(18 18 18 / 10%);
+    border-radius: 10px;
+    /* z-index: 10;*/
+}
+
+.avialDoctor-header{
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.avialDoctor-header h5{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+margin: 0 0;
+letter-spacing: 0.03em;
+
+color: #121212;
+}
+.avialDoctor-header p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+margin-top: 0;
+padding-top: 0;
+letter-spacing: 0.03em;
+
+/* Grey */
+
+color: #696969;
+}
+
+.avialDoctor-list{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 142px;
+height: 120px;
+}
+.avialDoctor-list_item{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 142px;
+height: 46px;
+}
+
+.avialDoctor-list_item1-pic{
+    width: 46px;
+    height: 46px;
+}
+
+.avialDoctor-list_item1-pic_img{
+
+width: 46px;
+height: 46px;
+left: -23px;
+top: -2px;
+border-radius: 30px;
+background: url(../media/image2.png) repeat 0 0;
+}
+
+.avialDoctor-list_item1-pic_img2{
+
+    width: 46px;
+    height: 46px;
+    left: -23px;
+    top: -2px;
+    border-radius: 30px;
+    background: url(../media/image3.png) repeat 0 0;
+    }
+
+.avialDoctor-list_item1-title h5{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.03em;
+
+/* Black */
+
+color: #121212;
+margin:0;
+padding:0;
+}
+
+.avialDoctor-list_item1-title p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Grey */
+
+color: #696969;
+margin:0;
+padding:0;
+}
+.avialDoctor-list_item1-title{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+}
+
+.tabib__findDoctor img{
+    position: absolute;
+width: 516px;
+height: 609px;
+left: 68rem;
+top: 115px;
+}
+
+.tabib__findDoctor-ellipse{
+width: 803px;
+height: 803px;
+left: 975px;
+top: 256px;
+
+background: #4D77FF;
+border-radius: 48rem;
+z-index:-1;
+position: absolute;
+}
+
+.avialDoctor-btnFindDoctor{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 142px;
+height: 32px;
+
+background: #EDF1FF;
+border-radius: 10px;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.avialDoctor-btnFindDoctor p{
+    width: 68px;
+height: 16px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Primary */
+
+color: #4D77FF;
+}
+
+.tabib__findDoctor-text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+position: absolute;
+width: 531px;
+height: 382px;
+left: 100px;
+top: 80px;
+}
+.tabib__findDoctor-text_header{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 493px;
+height: 110px;
+}
+.tabib__findDoctor-text .tabib__findDoctor-text_header p{
+    width: 82px;
+height: 20px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.03em;
+
+/* Primary */
+
+color: #4D77FF;
+}
+
+.tabib__findDoctor-text_header h1{
+    width: 493px;
+height: 80px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+
+letter-spacing: 0.015em;
+
+/* Black */
+
+color: #121212;
+
+}
+
+.tabib__findDoctor-text p{
+    width: 531px;
+height: 80px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.02em;
+
+/* Grey */
+
+color: #696969;
+}
+
+.tabib__findDoctor-text_btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 10px;
+gap: 10px;
+
+width: 200px;
+height: 52px;
+
+/* Primary */
+
+background: #4D77FF;
+border-radius: 10px;
+}
+
+.tabib__findDoctor-text_btn p{
+    width: 128px;
+height: 20px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.03em;
+
+/* White */
+
+color: #FFFFFF;
+}
+
+/* tabib__schedule */
+
+.tabib__schedule{
+/* width: 1159px;
+height: 401px;
+left: 102px;
+top: 2069px; */
+width: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+.tabib__schedule-frame{
+    /* position: absolute;
+width: 1159px;
+height: 401px;
+left: 102px;
+top: 1965px;
+overflow: hidden;
+display: grid; */
+width: 1159px;
+height: 401px;
+flex: 1;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+
+text-align: left;
+margin-right: 5rem;
+}
+
+.tabib__schedule-img{
+    position: absolute;
+    width: 611px;
+    height: 375px;
+    margin-left: 108px;
+    top: 2079px;
+    
+    background: #C4C4C4;
+    border-radius: 1000px;
+
+background: url(../media/image4.png) repeat 0 0;
+
+grid-column: 1;
+grid-row: 1;
+}
+
+.tabib__schedule-img_rectangle{
+    position: absolute;
+    box-sizing: border-box;
+    width: 611px;
+    height: 375px;
+    margin-left: 102px;
+    top: 2095px;
+
+
+
+border: 2px solid #4D77FF;
+border-radius: 1000px;
+grid-column: 1;
+grid-row: 1;
+}
+
+.tabib__schedule-img_rectangle2{
+    position: absolute;
+    box-sizing: border-box;
+    width: 611px;
+    height: 375px;
+    margin-left: 117px;
+    top: 2069px;
+    
+    /* Primary */
+    
+    border: 2px solid #4D77FF;
+    border-radius: 1000px;
+    grid-column: 1;
+grid-row: 1;
+}
+
+.tabib__schedule-body{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+position: absolute;
+width: 472px;
+height: 362px;
+left: 900px;
+top: 2069px; 
+flex: 1.5;
+
+}
+.tabib__schedule-body_header{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 441px;
+height: 110px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.tabib__schedule-body .tabib__schedule-body_header p{
+    width: 112px;
+height: 20px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.03em;
+
+/* Primary */
+
+color: #4D77FF;
+}
+
+.tabib__schedule-body_header h1{
+    width: 441px;
+height: 80px;
+margin-top: 0;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+
+letter-spacing: 0.015em;
+
+/* Black */
+
+color: #121212;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.tabib__schedule-body p{
+    width: 472px;
+height: 60px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.02em;
+
+/* Grey */
+
+color: #696969;
+}
+
+.tabib__schedule-body_button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 36px;
+gap: 10px;
+
+width: 236px;
+height: 52px;
+
+/* Primary */
+
+background: #4D77FF;
+color: #FFFFFF;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+border-radius: 10px;
+border: none;
+}
+
+/* Footer */
+
+.tabib__footer{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+
+position: absolute;
+width: 1353px;
+height: 125px;
+left: 100px;
+top: 2522px;
+justify-content: space-between;
+}
+
+.tabib__footer-heading{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 429px;
+height: 125px;
+}
+
+.tabib__footer-heading h3{
+    width: 175px;
+height: 33px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+margin-bottom: 0;
+letter-spacing: 0.03em;
+color: #4D77FF;;
+}
+
+.tabib__footer-heading p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.015em;
+}
+.tabib__footer-links{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 70px;
+
+width: 647px;
+height: 124px;
+}
+
+.tabib__footer-links_overview{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 112px;
+height: 124px;
+}
+
+.tabib__footer-links_overview h4, .tabib__footer-links_company h4, .tabib__footer-links_explore h4, .tabib__footer-links_socialMedia h4{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: 0.03em;
+
+/* Black */
+
+color: #121212;
+}
+
+.tabib__footer-links_overview p, .tabib__footer-links_company p, .tabib__footer-links_explore p{ 
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.015em;
+
+/* Black */
+
+color: #121212;
+margin: 4px;
+}
+
+.tabib__footer-links_company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 96px;
+    height: 124px;
+}
+
+.tabib__footer-links_explore{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 100px;
+height: 124px;
+}
+
+.tabib__footer-links_socialMedia{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 129px;
+height: 68px;
+}
+
+.tabib__footer-links_socialMedia-icons{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 92px;
+height: 24px;
+}
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+    .tabib__header{
+        width: 1290px;
+    }
+    .tabib__header-eclipse {
+        position: absolute;
+        width: 1100px;
+    }
+    .tabib__header img {
+        width: 685px;
+        height: 390px;
+        left: 39rem;
+        top: 313px;
+    }
+    .tabib__header-eclipse {
+        left: 30rem;
+        top: 432px;
+    }
+    .tabib__header-drCardProfile_picFrame {
+        top: 3px;
+    }
+    .tabib__header-drCardProfile {
+    
+        padding: 6px;
+        width: 112px;
+        height: 131px;
+        left: 38rem;
+        top: 33rem;
+    }
+    .tabib__header-drCardProfile_name-speciality {
+    margin: 0;
+    }
+    .tabib__header-drCardProfile_name-id {
+        font-size: 12px;
+        line-height: 2px;
+    }
+    .tabib__header-drCardProfile_appointement {
+        padding: 4px;
+        border-radius: 4px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .tabib__stepSection {
+        width: 1194px;
+        left: 31px;
+    }
+    .tabib__findDoctor {
+        width: 1250px;
+    }
+    .tabib__findDoctor img {
+        width: 416px;
+        height: 509px;
+        left: 50rem;
+    }
+    .avialDoctor {
+        width: 145px;
+        height: 205px;
+        left: 41rem;
+    }
+    .tabib__findDoctor-ellipse {
+        top: 233px;
+        left: 41rem;
+    }
+
+    .tabib__schedule-img {
+        width: 511px;
+    }
+    .tabib__schedule-img_rectangle2 {
+        width: 511px;
+    }
+    .tabib__schedule-img_rectangle {
+        width: 511px;
+    }
+    .tabib__schedule-body {
+        left: 45rem;
+    }
+
+    .tabib__footer {
+        width: 1093px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .tabib__navbar {
+        padding: 2rem 2rem;
+    }
+
+    .tabib__header{
+        width: 100%;
+
+    }
+    .tabib__header-title {
+        top: 70px;
+        width: 80%;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 47px;
+        letter-spacing: 0.01em;
+        left: 3rem;
+    }
+    .tabib__header-wtabib {
+        top: 220px;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.03em;
+    width: 80%;
+    left: 3rem;
+
+    }
+    .tabib__header-contact button {
+        top: 320px;
+        left: 3rem;
+    }
+    .tabib__header-eclipse {
+        position: absolute;
+        width: 1100px;
+    }
+    .tabib__header img {
+        width: 384px;
+        height: 290px;
+        left: 30rem;
+        top: 412px;
+    }
+    .tabib__header-eclipse {
+        left: 21rem;
+        border-radius: 34rem;
+        height: 930px;
+        top: 493px;
+        width: 100%;
+    }
+    .tabib__header-drCardProfile_picFrame {
+        top: 3px;
+    }
+    .tabib__header-drCardProfile {
+        padding: 6px;
+    width: 98px;
+    height: 124px;
+    left: 29rem;
+    top: 34rem;
+    border-radius: 6px;
+    }
+    .tabib__stepSection-title {
+        left: -15px;
+    }
+    .tabib__stepSection-card_container {
+        display: flex;
+        flex-wrap: unset;
+    gap: 2rem;
+    width: 100%;
+    }
+    .tabib__stepSection-card_frame {
+        height: 100%;
+    }
+
+    .tabib__header-drCardProfile_name-speciality {
+    margin: 0;
+    }
+    .tabib__header-drCardProfile_name-id {
+        font-size: 12px;
+        line-height: 2px;
+    }
+    .tabib__header-drCardProfile_appointement {
+        padding: 4px;
+        border-radius: 4px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .tabib__stepSection {
+        width: 80%;
+        left: 31px;
+    }
+    .tabib__stepSection-card_rectangle {
+        width: 100%;
+    }
+    .tabib__stepSection-card {
+        width: 44%;
+        height: 100%;
+    }
+    .tabib__findDoctor {
+        width: 100%;
+        left: -68px;
+    top: 1108px;
+    height: 940px;
+    }
+    .tabib__findDoctor-img{
+        display: flex;
+    left: 7rem;
+    position: absolute;
+    }
+    .tabib__findDoctor-text p {
+        width: 469px;
+    }
+    .tabib__findDoctor-text_btn {
+        width: 112px;
+    }
+    .tabib__findDoctor img {
+        width: 416px;
+        height: 509px;
+        left: 13rem;
+        top: 32rem;
+    }
+    .avialDoctor {
+        width: 145px;
+        height: 205px;
+        left: 6rem;
+        top: 33rem;
+    }
+    .tabib__findDoctor-ellipse {
+        top: 40rem;
+        left: 8rem;
+        width: 603px;
+        height: 603px;
+    }
+    /* Schedule */
+    .tabib__schedule {
+        margin-top: 0rem;
+        flex-direction: column;
+    }
+    .tabib__schedule-frame{
+        width: 500px;
+    }
+    .tabib__schedule-img {
+        width: 486px;
+        position: relative;
+        margin-left: 12px;
+       
+    }
+    .tabib__schedule-img_rectangle2 {
+        width: 486px;
+        position: absolute;
+        top: 136rem;
+        margin-left: 12px;
+    }
+    .tabib__schedule-img_rectangle {
+        width: 486px;
+        position: absolute;
+        top: 137rem;
+        margin-left: 12px;
+    }
+    .tabib__schedule-body {
+        left: 2rem;
+        position: relative;
+        top: 2109px;
+    }
+
+    .tabib__footer {
+        width: 100%;
+        top: 2918px;
+        left: 2rem;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .tabib__footer-heading{
+        gap: unset;
+        width: 100%;
+    }
+    .tabib__footer-links {
+        gap: 6rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tabib__navbar {
+        padding: 2rem 2rem;
+    }
+
+    .tabib__header{
+        width: 550px;
+
+    }
+    .tabib__header-title {
+        top: 70px;
+        width: 418px;
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 47px;
+        letter-spacing: 0.01em;
+        left: 3rem;
+    }
+    .tabib__header-wtabib {
+        top: 220px;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.03em;
+    width: 400px;
+    left: 3rem;
+
+    }
+    .tabib__header-contact button {
+        top: 305px;
+        left: 3rem;
+    }
+    .tabib__header-eclipse {
+        position: absolute;
+        width: 1100px;
+    }
+    .tabib__header img {
+        width: 384px;
+        height: 290px;
+        left: 0rem;
+        top: 412px;
+    }
+    .tabib__header-eclipse {
+        left: 1rem;
+        border-radius: 34rem;
+        height: 751px;
+        top: 493px;
+        width: 638px;
+    }
+    .tabib__header-drCardProfile_picFrame {
+        top: 3px;
+    }
+    .tabib__header-drCardProfile {
+        padding: 6px;
+    width: 98px;
+    height: 124px;
+    left: 4rem;
+    top: 34rem;
+    border-radius: 6px;
+    }
+    .tabib__stepSection-title {
+        left: -15px;
+    }
+    .tabib__stepSection-card_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tabib__header-drCardProfile_name-speciality {
+    margin: 0;
+    }
+    .tabib__header-drCardProfile_name-id {
+        font-size: 12px;
+        line-height: 2px;
+    }
+    .tabib__header-drCardProfile_appointement {
+        padding: 4px;
+        border-radius: 4px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .tabib__stepSection {
+        width: 475px;
+        left: 31px;
+    }
+    .tabib__stepSection-card_rectangle {
+        width: 100%;
+    }
+    .tabib__stepSection-card {
+        width: 44%;
+    }
+    .tabib__findDoctor {
+        width: 600px;
+        left: -68px;
+    top: 1290px;
+    height: 940px;
+    }
+    .tabib__findDoctor-text p {
+        width: 469px;
+    }
+    .tabib__findDoctor-text_btn {
+        width: 112px;
+    }
+    .tabib__findDoctor img {
+        width: 416px;
+        height: 509px;
+        left: 13rem;
+        top: 32rem;
+    }
+    .avialDoctor {
+        width: 145px;
+        height: 205px;
+        left: 6rem;
+        top: 33rem;
+    }
+    .tabib__findDoctor-ellipse {
+        top: 40rem;
+        left: 8rem;
+        width: 603px;
+        height: 603px;
+    }
+    /* Schedule */
+    .tabib__schedule {
+        margin-top: 6rem;
+        flex-direction: column;
+    }
+    .tabib__schedule-frame{
+        width: 500px;
+    }
+    .tabib__schedule-img {
+        width: 486px;
+        position: relative;
+        margin-left: 12px;
+       
+    }
+    .tabib__schedule-img_rectangle2 {
+        width: 486px;
+        position: absolute;
+        top: 142rem;
+        margin-left: 12px;
+    }
+    .tabib__schedule-img_rectangle {
+        width: 486px;
+        position: absolute;
+        top: 143rem;
+        margin-left: 12px;
+    }
+    .tabib__schedule-body {
+        left: 2rem;
+        position: relative;
+        top: 2109px;
+    }
+
+    .tabib__footer {
+        width: 500px;
+        top: 3000px;
+        left: 2rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .tabib__footer-heading{
+        gap: unset;
+    }
+    .tabib__footer-links {
+        gap: 1rem;
+        width: 500px;
+    }
+}
